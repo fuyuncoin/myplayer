@@ -1,0 +1,86 @@
+object Form3: TForm3
+  Left = 413
+  Top = 293
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = #39123#39118#24433#38899'-'#25130#22270
+  ClientHeight = 286
+  ClientWidth = 317
+  Color = clBtnText
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 317
+    Height = 217
+    Align = alTop
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 0
+    Top = 216
+    Width = 313
+    Height = 73
+    Caption = #28857#20987#20445#23384
+    Flat = True
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -37
+    Font.Name = #25991#40718#38713#38643#20307
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = SpeedButton1Click
+  end
+  object bsBusinessSkinForm1: TbsBusinessSkinForm
+    LogoBitMapTransparent = False
+    AlwaysMinimizeToTray = False
+    UseSkinFontInMenu = True
+    ShowIcon = False
+    MaximizeOnFullScreen = False
+    AlphaBlend = False
+    AlphaBlendAnimation = False
+    AlphaBlendValue = 200
+    ShowObjectHint = False
+    MenusAlphaBlend = False
+    MenusAlphaBlendAnimation = False
+    MenusAlphaBlendValue = 200
+    DefCaptionFont.Charset = DEFAULT_CHARSET
+    DefCaptionFont.Color = clBtnText
+    DefCaptionFont.Height = 14
+    DefCaptionFont.Name = 'Arial'
+    DefCaptionFont.Style = [fsBold]
+    DefInActiveCaptionFont.Charset = DEFAULT_CHARSET
+    DefInActiveCaptionFont.Color = clBtnShadow
+    DefInActiveCaptionFont.Height = 14
+    DefInActiveCaptionFont.Name = 'Arial'
+    DefInActiveCaptionFont.Style = [fsBold]
+    DefMenuItemHeight = 20
+    DefMenuItemFont.Charset = DEFAULT_CHARSET
+    DefMenuItemFont.Color = clWindowText
+    DefMenuItemFont.Height = 14
+    DefMenuItemFont.Name = 'Arial'
+    DefMenuItemFont.Style = []
+    UseDefaultSysMenu = True
+    SkinData = Form1.bsSkinData1
+    MinHeight = 0
+    MinWidth = 0
+    Magnetic = False
+    MagneticSize = 5
+    BorderIcons = [biSystemMenu, biMinimize, biMaximize, biRollUp]
+    Left = 8
+    Top = 224
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Left = 32
+    Top = 224
+  end
+end
